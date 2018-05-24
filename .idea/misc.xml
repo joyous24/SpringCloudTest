@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/eurekaServer" />
+    <file type="web" url="file://$PROJECT_DIR$/eurekaServer2" />
+    <file type="web" url="file://$PROJECT_DIR$/helloService" />
+    <file type="web" url="file://$PROJECT_DIR$/helloService2" />
+    <file type="web" url="file://$PROJECT_DIR$/ribbonConsumer" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaServer2/pom.xml" />
+        <option value="$PROJECT_DIR$/helloService/pom.xml" />
+        <option value="$PROJECT_DIR$/helloService2/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbonConsumer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
