@@ -12,8 +12,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaServer2/pom.xml" />
         <option value="$PROJECT_DIR$/helloService/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaServer2/pom.xml" />
         <option value="$PROJECT_DIR$/helloService2/pom.xml" />
         <option value="$PROJECT_DIR$/ribbonConsumer/pom.xml" />
       </list>
