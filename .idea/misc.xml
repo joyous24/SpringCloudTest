@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/apiGateway" />
+    <file type="web" url="file://$PROJECT_DIR$/configServer" />
     <file type="web" url="file://$PROJECT_DIR$/eurekaServer" />
     <file type="web" url="file://$PROJECT_DIR$/eurekaServer2" />
+    <file type="web" url="file://$PROJECT_DIR$/feignConsumer" />
     <file type="web" url="file://$PROJECT_DIR$/helloService" />
     <file type="web" url="file://$PROJECT_DIR$/helloService2" />
     <file type="web" url="file://$PROJECT_DIR$/ribbonConsumer" />
@@ -16,6 +19,9 @@
         <option value="$PROJECT_DIR$/eurekaServer2/pom.xml" />
         <option value="$PROJECT_DIR$/helloService2/pom.xml" />
         <option value="$PROJECT_DIR$/ribbonConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/feignConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/apiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/configServer/pom.xml" />
       </list>
     </option>
   </component>

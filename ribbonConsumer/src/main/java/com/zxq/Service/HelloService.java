@@ -1,4 +1,4 @@
-package com.zxq.Service;
+package com.zxq.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.command.AsyncResult;

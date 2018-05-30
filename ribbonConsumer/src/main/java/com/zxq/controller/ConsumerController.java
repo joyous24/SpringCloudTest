@@ -1,8 +1,7 @@
 package com.zxq.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.command.AsyncResult;
-import com.zxq.Service.HelloService;
+import com.zxq.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
