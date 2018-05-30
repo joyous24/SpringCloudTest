@@ -1,1 +1,4 @@
 *.class
+*.jar
+config-server
+default-compile
