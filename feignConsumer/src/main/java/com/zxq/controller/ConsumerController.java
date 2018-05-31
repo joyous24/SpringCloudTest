@@ -1,6 +1,6 @@
 package com.zxq.controller;
 
-import com.zxq.service.HelloService;
+import com.zxq.mq.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
