@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/feignConsumer" />
     <file type="web" url="file://$PROJECT_DIR$/helloService" />
     <file type="web" url="file://$PROJECT_DIR$/helloService2" />
+    <file type="web" url="file://$PROJECT_DIR$/hystrixDashboard" />
     <file type="web" url="file://$PROJECT_DIR$/ribbonConsumer" />
     <file type="web" url="file://$PROJECT_DIR$/zipkinServer" />
     <type id="Spring" />
@@ -25,6 +26,7 @@
         <option value="$PROJECT_DIR$/apiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/configServer/pom.xml" />
         <option value="$PROJECT_DIR$/zipkinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrixDashboard/pom.xml" />
       </list>
     </option>
   </component>

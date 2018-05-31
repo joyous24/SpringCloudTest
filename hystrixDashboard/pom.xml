@@ -11,11 +11,11 @@
     </parent>
 
     <groupId>com.zxq</groupId>
-    <artifactId>ribbon-consumer</artifactId>
+    <artifactId>hystrix-dashboard</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>ribbon-consumer</name>
+    <name>hystrix-dashboard</name>
 
     <dependencyManagement>
         <dependencies>
@@ -32,34 +32,17 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-
 
     </dependencies>
 
@@ -75,7 +58,7 @@
     </repositories>
 
     <build>
-        <finalName>ribbon-consumer</finalName>
+        <finalName>hystrix-dashboard</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

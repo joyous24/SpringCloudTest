@@ -14,6 +14,7 @@
         <module name="feign-consumer" />
         <module name="hello-service" />
         <module name="hello-service2" />
+        <module name="hystrix-dashboard" />
         <module name="ribbon-consumer" />
         <module name="zipkin-server" />
       </profile>
