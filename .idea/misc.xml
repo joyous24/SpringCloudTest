@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/helloService" />
     <file type="web" url="file://$PROJECT_DIR$/helloService2" />
     <file type="web" url="file://$PROJECT_DIR$/ribbonConsumer" />
+    <file type="web" url="file://$PROJECT_DIR$/zipkinServer" />
     <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/feignConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/apiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/configServer/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkinServer/pom.xml" />
       </list>
     </option>
   </component>
