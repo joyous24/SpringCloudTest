@@ -1,6 +1,7 @@
 package com.zxq.Controller;
 
 
+import com.zxq.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,6 +20,9 @@ public class HelloController {
     @Autowired
     private DiscoveryClient client;
 
+    @Autowired
+    private UserService userService;
+
     @Value("${from}")
     private String from;
 
@@ -32,5 +36,11 @@ public class HelloController {
     @RequestMapping("/from")
     public String from() {
         return this.from;
+    }
+
+    @RequestMapping("/save")
+    public String saveUser(){
+        userService.addUser();
+        return "succeed";
     }
 }

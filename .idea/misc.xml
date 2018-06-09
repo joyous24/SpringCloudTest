@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/configServer/pom.xml" />
         <option value="$PROJECT_DIR$/zipkinServer/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixDashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/tx-manager/pom.xml" />
       </list>
     </option>
   </component>

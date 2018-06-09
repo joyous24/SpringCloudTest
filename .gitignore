@@ -2,3 +2,6 @@
 *.jar
 config-server
 default-compile
+/tx-manager/target/classes
+/zipkinServer/target/classes
+/configServer/target

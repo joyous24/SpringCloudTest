@@ -1,6 +1,6 @@
 package com.zxq.controller;
 
-import com.zxq.mq.HelloService;
+import com.zxq.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,5 +14,10 @@ public class ConsumerController {
     @RequestMapping("/ribbon-consumer")
     public String helloConsumer() {
         return helloService.hello();
+    }
+
+    @RequestMapping("/ribbon-save")
+    public String saveUser() {
+        return helloService.saveUser();
     }
 }

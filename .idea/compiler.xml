@@ -16,6 +16,7 @@
         <module name="hello-service2" />
         <module name="hystrix-dashboard" />
         <module name="ribbon-consumer" />
+        <module name="tx-manager" />
         <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
